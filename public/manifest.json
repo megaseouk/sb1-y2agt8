@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify Lead Gen Extension",
+  "version": "1.0",
+  "description": "Automatically sign up users to Spotify lead generation forms",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "identity"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}
